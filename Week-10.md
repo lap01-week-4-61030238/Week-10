@@ -69,6 +69,12 @@ __หมายเหตุ__ Form height : 300,  Form width : 225
 
   * ทดลองกดปุ่ม Hello เพื่อดูว่าเกิดอะไรขึ้นบ้าง
 
+```
+บันทึกผลการทดลอง
+
+```
+
+
 	
 2.1.4 การเพิ่ม Event Handler ให้กับ control
 
@@ -144,175 +150,135 @@ __ขั้นตอนการทดลอง__
 
 * สร้าง Application ใหม่ ชื่อ folderBrowser โดยให้มีหน้าจอและองค์ประกอบดังต่อไปนี้
  
+![](./images/fig-12.png)
 
 
 
+![](./images/table-02.png)
 
-ลำดับที่	ชนิดของ Control	Properties
-1	Button	Name : btnFolderBrowser
-Text : Browse
-2	Textbox	Name : txtboxFolder
-3	PropertyGrid	Name : propertyGrid1
-4	FolderBrowserDialog	Name : folderBrowserDialog1
  
-สังเกตว่า folderBrowserDialog1 จะไม่มี user intarface บน window form เนื่องจากมันมีลักษณะเป็น Dialog box control แต่มันจะถูกนำไปวางไว้ใต้ window form ดังรูป
- 
-●	ดับเบิลคลิกที่ปุ่ม btnFolderBrowser เพื่อให้ IDE ทำการสร้าง event handler ให้ จะได้  event handler ที่ชื่อ private void btnFolderBrowser_Click(object sender, EventArgs e) ให้แก้ไข code เป็นดังต่อไปนี้
-
-    	private void btnFolderBrowser_Click(object sender, EventArgs e)
-    	{
-           if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
-           {
-            	propertyGrid1.Refresh();
-            	txtboxFolder.Text = folderBrowserDialog1.SelectedPath;
-           }
-    	}
-
-●	รันโปรแกรมและคลิกปุ่ม Browse  และเลือก folder ที่ต้องการ 
-●	ใน propertyGrid1 ให้เปลี่ยน RootFolder เป็นค่าอื่นๆ แล้วกด Browse บันทึกผลที่ได้
-●	เปลี่ยน ShowNewFolderButton จาก True เป็น False และกดปุ่ม Browse สังเกตุความแตกต่าง และบันทึกผล
+สังเกตว่า ``folderBrowserDialog1`` จะไม่มี user intarface บน window form เนื่องจากมันมีลักษณะเป็น Dialog box control แต่มันจะถูกนำไปวางไว้ใต้ window form ดังรูป
 
 
+![](./images/fig-13.png)
 
 
+* ดับเบิลคลิกที่ปุ่ม btnFolderBrowser เพื่อให้ IDE ทำการสร้าง event handler ให้ จะได้  event handler ที่ชื่อ private void btnFolderBrowser_Click(object sender, EventArgs e) ให้แก้ไข code เป็นดังต่อไปนี้
 
+![](./images/fig-14.png)
 
-
-3.2 OpenFileDialog
-
-●	สร้าง Application ใหม่ ชื่อ openFileDialog โดยให้มีหน้าจอและองค์ประกอบดังต่อไปนี้
  
 
-ลำดับที่	ชนิดของ Control	Properties
-1	OpenFileDialog	Name : openFileDialog1
-2	Button	Name : btnOpenFile
-Text : Open File
-3	Textbox	Name : txtboxFileName
-4	PropertyGrid	Name : propertyGrid1
-SelectedObject : openFileDialog1
-5	PropertyGrid	Name : propertyGrid2
+* รันโปรแกรมและคลิกปุ่ม Browse  และเลือก folder ที่ต้องการ 
+* ใน propertyGrid1 ให้เปลี่ยน RootFolder เป็นค่าอื่นๆ แล้วกด Browse บันทึกผลที่ได้
+* เปลี่ยน ShowNewFolderButton จาก True เป็น False และกดปุ่ม Browse สังเกตุความแตกต่าง และบันทึกผล
 
-●	ดับเบิลคลิกที่ปุ่ม btnOpenFile เพื่อให้ IDE ทำการสร้าง event handler ให้ จะได้  event handler ที่ชื่อ  private void btnOpenFile_Click(object sender, EventArgs e) ให้แก้ไข code เป็นดังต่อไปนี้
+```
+บันทึกผลการทดลอง
+
+```
 
 
-    	private void btnOpenFile_Click(object sender, EventArgs e)
-    	{
-           if (openFileDialog1.ShowDialog() == DialogResult.OK)
-           {
-            	txtboxFileName.Text = openFileDialog1.FileName;
-            	DirectoryInfo di = new DirectoryInfo(openFileDialog1.FileName);
-            	propertyGrid2.SelectedObject = di;
-            	propertyGrid1.Refresh();
-           }
-    	}
 
-●	รันโปรแกรมและคลิกปุ่ม Browse เลือก folder และ file ที่ต้องการ 
-●	สังเกตุและบันทึกผลการทดลอง
-●	ลองเลือกไฟล์อื่นๆ สังเกตการเปลี่ยนแปลง
+## 3.2 OpenFileDialog
+
+* สร้าง Application ใหม่ ชื่อ openFileDialog โดยให้มีหน้าจอและองค์ประกอบดังต่อไปนี้
+ 
+![](./images/fig-15.png)
+ 
+
+![](./images/table-03.png)
+
+
+* ดับเบิลคลิกที่ปุ่ม btnOpenFile เพื่อให้ IDE ทำการสร้าง event handler ให้ จะได้  event handler ที่ชื่อ  private void btnOpenFile_Click(object sender, EventArgs e) ให้แก้ไข code เป็นดังต่อไปนี้
+
+
+![](./images/fig-16.png)
+
+
+* รันโปรแกรมและคลิกปุ่ม Browse เลือก folder และ file ที่ต้องการ 
+* สังเกตุและบันทึกผลการทดลอง
+* ลองเลือกไฟล์อื่นๆ สังเกตการเปลี่ยนแปลง
 
  
-3.3 ColorDialog
-●	สร้าง Application ใหม่ ชื่อ colorDialog โดยให้มีหน้าจอและองค์ประกอบดังต่อไปนี้
+## 3.3 ColorDialog
+* สร้าง Application ใหม่ ชื่อ colorDialog โดยให้มีหน้าจอและองค์ประกอบดังต่อไปนี้
  
 
-ลำดับที่	ชนิดของ Control	Properties
-1	ColorDialog	Name : colorDialog1
-Text : Color Dialog
-2	Button	Name : btnColorDialog
-Text : Color Dialog
-3	PropertyGrid	Name : propertyGrid1
-SelectedObject : colorDialog1
-4	PictureBox	Name : pictureBox1
+![](./images/fig-17.png)
 
-●	ดับเบิลคลิกที่ปุ่ม btnColorDialog เพื่อให้ IDE ทำการสร้าง event handler ให้ จะได้  event handler ที่ชื่อ  private void btnColorDialog_Click(object sender, EventArgs e) ให้แก้ไข code เป็นดังต่อไปนี้
-    	private void btnColorDialog_Click(object sender, EventArgs e)
-    	{
-          if (colorDialog1.ShowDialog() == DialogResult.OK)
-          {
-            	pictureBox1.BackColor = colorDialog1.Color;
-            	propertyGrid1.Refresh();
-          }
-    	}
+![](./images/table-04.png)
 
-●	รันโปรแกรมและคลิกปุ่ม Color Dialog เพื่อเลือกสีที่ต้องการ 
-●	สังเกตุและบันทึกผลการทดลอง
-●	ลองเลือกสีอื่นๆ สังเกตการเปลี่ยนแปลง
 
+
+* ดับเบิลคลิกที่ปุ่ม btnColorDialog เพื่อให้ IDE ทำการสร้าง event handler ให้ จะได้  event handler ที่ชื่อ  private void btnColorDialog_Click(object sender, EventArgs e) ให้แก้ไข code เป็นดังต่อไปนี้
+
+![](./images/fig-18.png)
+
+* รันโปรแกรมและคลิกปุ่ม Color Dialog เพื่อเลือกสีที่ต้องการ 
+* สังเกตุและบันทึกผลการทดลอง
+* ลองเลือกสีอื่นๆ สังเกตการเปลี่ยนแปลง
+
+```
+บันทึกผลการทดลอง
+
+```
 
 
  
-3.4 FontDilalog
-●	สร้าง Application ใหม่ ชื่อ colorDialog โดยให้มีหน้าจอและองค์ประกอบดังต่อไปนี้
+## 3.4 FontDilalog
+* สร้าง Application ใหม่ ชื่อ colorDialog โดยให้มีหน้าจอและองค์ประกอบดังต่อไปนี้
  
+![](./images/fig-19.png)
 
-ลำดับที่	ชนิดของ Control	Properties
-1	FontDialog	Name : fontDialog1
-2	Button	Name : btnFontDialog
-Text : Font Dialog
-3	PropertyGrid	Name : propertyGrid1
-SelectedObject : fontDialog1
-4	Button	Name : btnUpdateRichTextBox1
-Text : Update text
-●	ดับเบิลคลิกที่ปุ่ม btnFontDialog เพื่อให้ IDE ทำการสร้าง event handler ให้ จะได้  event handler ที่ชื่อ  private void btnFontDialog_Click(object sender, EventArgs e) ให้แก้ไข code เป็นดังต่อไปนี้
-    	private void btnFontDialog_Click(object sender, EventArgs e)
-    	{
-          if (fontDialog1.ShowDialog() == DialogResult.OK)
-          {
-            	richTextBox1.Font = fontDialog1.Font;
-            	propertyGrid1.Refresh();
-          }
-    	}
-●	ดับเบิลคลิกที่ปุ่ม btnUpdateRichTextBox1 เพื่อให้ IDE ทำการสร้าง event handler ให้ จะได้   private void btnUpdateRichTextBox1_Click(object sender, EventArgs e) ให้แก้ไข code เป็นดังต่อไปนี้
-   	private void btnUpdateRichTextBox1_Click(object sender, EventArgs e)
-    	{
-            richTextBox1.Text = textBox1.Text;
-    	}
+![](./images/table-05.png)
 
-●	รันโปรแกรมและคลิกปุ่ม Font Dialog เพื่อเลือก font ที่ต้องการ 
-●	สังเกตุและบันทึกผลการทดลอง
-●	ลองเลือก font อื่นๆ สังเกตการเปลี่ยนแปลง
-●	เปลี่ยนแปลงข้อความใน textBox1 แล้วกดปุ่ม Update text
+
+
+* ดับเบิลคลิกที่ปุ่ม btnFontDialog เพื่อให้ IDE ทำการสร้าง event handler ให้ จะได้  event handler ที่ชื่อ  private void btnFontDialog_Click(object sender, EventArgs e) ให้แก้ไข code เป็นดังต่อไปนี้
+
+![](./images/fig-20.png)
+
+* ดับเบิลคลิกที่ปุ่ม btnUpdateRichTextBox1 เพื่อให้ IDE ทำการสร้าง event handler ให้ จะได้   private void btnUpdateRichTextBox1_Click(object sender, EventArgs e) ให้แก้ไข code เป็นดังต่อไปนี้
+
+![](./images/fig-21.png)
+
+
+* รันโปรแกรมและคลิกปุ่ม Font Dialog เพื่อเลือก font ที่ต้องการ 
+* สังเกตุและบันทึกผลการทดลอง
+* ลองเลือก font อื่นๆ สังเกตการเปลี่ยนแปลง
+* เปลี่ยนแปลงข้อความใน textBox1 แล้วกดปุ่ม Update text
+```
+บันทึกผลการทดลอง
+
+```
 
  
-2.5 SaveFileDialog Control
+## 2.5 SaveFileDialog Control
 
-●	สร้าง Application ใหม่ ชื่อ saveFileDialog โดยให้มีหน้าจอและองค์ประกอบดังต่อไปนี้
+* สร้าง Application ใหม่ ชื่อ saveFileDialog โดยให้มีหน้าจอและองค์ประกอบดังต่อไปนี้
 
- 
-ลำดับที่	ชนิดของ Control	Properties
-1	SaveFileDialog	Name : SaveFileDialog
-2	Label	Name : label1
-Text : Text
-2	TextBox	Name : textBox1
-Multiline : True
-Text : ID: 5903xxxx Name : <First name > <last name> Department :  <Department Name> Faculty :  <Faculty Name> University : <University Name>
+![](./images/fig-22.png)
 
-วิธีการใส่ text ให้คลิกที่ drop down button
- 
-3	PropertyGrid	Name : propertyGrid1
-SelectedObject : saveFileDialog1
-4	Button	Name : btnSaveToFile
-Text : Save to file
-●	ดับเบิลคลิกที่ปุ่ม btnSaveToFile เพื่อให้ IDE ทำการสร้าง event handler ให้ จะได้  event handler ที่ชื่อ  private void btnSaveToFile_Click(object sender, EventArgs e) ให้แก้ไข code เป็นดังต่อไปนี้
-  private void btnSaveToFile_Click(object sender, EventArgs e)
-  {
-       saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
-       saveFileDialog1.RestoreDirectory = true;
+![](./images/table-06.png)
 
-       if (saveFileDialog1.ShowDialog() == DialogResult.OK)
-          {
-            	File.WriteAllText(saveFileDialog1.FileName, textBox1.Text);
-            	propertyGrid1.Refresh();
-          }
-  }
 
-●	รันโปรแกรม
-●	แก้ไขข้อความใน textBox1
-●	คลิกปุ่ม Save to file จากนั้นให้เลือกที่ตั้งและชื่อไฟล์ตามต้องการ
-●	สังเกตุและบันทึกผลการทดลอง
-●	เปิดไฟล์ที่บันทึกไว้เพื่อดูข้อมูล ว่าตรงตามที่เขียนใน textBox1 หรือไม่
-●	เปลี่ยนแปลงข้อความใน textBox1 แล้วทดลองบันทึกเป็นชื่อไฟล์ และ/หรือ เปลี่ยนตำแหน่งที่ตั้งเป็นที่อื่นๆ  บันทึกผลการทดลอง
+* ดับเบิลคลิกที่ปุ่ม btnSaveToFile เพื่อให้ IDE ทำการสร้าง event handler ให้ จะได้  event handler ที่ชื่อ  private void btnSaveToFile_Click(object sender, EventArgs e) ให้แก้ไข code เป็นดังต่อไปนี้
 
+![](./images/fig-23.png)
+
+
+* รันโปรแกรม
+* แก้ไขข้อความใน textBox1
+* คลิกปุ่ม Save to file จากนั้นให้เลือกที่ตั้งและชื่อไฟล์ตามต้องการ
+* สังเกตุและบันทึกผลการทดลอง
+* เปิดไฟล์ที่บันทึกไว้เพื่อดูข้อมูล ว่าตรงตามที่เขียนใน textBox1 หรือไม่
+* เปลี่ยนแปลงข้อความใน textBox1 แล้วทดลองบันทึกเป็นชื่อไฟล์ และ/หรือ เปลี่ยนตำแหน่งที่ตั้งเป็นที่อื่นๆ  บันทึกผลการทดลอง
+
+```
+บันทึกผลการทดลอง
+
+```
 
 
 
