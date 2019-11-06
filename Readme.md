@@ -1,6 +1,3 @@
 # Computer Laboratory I
   
-## Function overloading
-## Overriding
-## Interface
-## Generic 
+## การทดลองที่ 10 Windows Form Application
