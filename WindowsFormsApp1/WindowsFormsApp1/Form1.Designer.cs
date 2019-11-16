@@ -63,6 +63,7 @@
             this.propertyGrid1.SelectedObject = this.openFileDialog1;
             this.propertyGrid1.Size = new System.Drawing.Size(326, 436);
             this.propertyGrid1.TabIndex = 3;
+            this.propertyGrid1.Click += new System.EventHandler(this.PropertyGrid1_Click);
             // 
             // textBox1
             // 
@@ -71,6 +72,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(345, 39);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // propertyGrid2
             // 
@@ -78,6 +80,7 @@
             this.propertyGrid2.Name = "propertyGrid2";
             this.propertyGrid2.Size = new System.Drawing.Size(345, 323);
             this.propertyGrid2.TabIndex = 4;
+            this.propertyGrid2.Click += new System.EventHandler(this.PropertyGrid2_Click);
             // 
             // Form1
             // 

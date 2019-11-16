@@ -17,12 +17,27 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void btnOpenFile_Click(object sender, EventArgs e)
         {
 
         }
 
         private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtboxFileName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PropertyGrid2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PropertyGrid1_Click(object sender, EventArgs e)
         {
 
         }
