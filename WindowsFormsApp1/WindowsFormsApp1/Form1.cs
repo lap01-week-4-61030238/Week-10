@@ -19,7 +19,14 @@ namespace WindowsFormsApp1
 
         private void btnOpenFile_Click(object sender, EventArgs e)
         {
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
 
+                txtboxFileName.Text = openFileDialog1.FileName;
+                DirectoryInfo di = new DirectoryInfo(openFileDialog1.FileName);
+                propertyGrid2.Selectedobject = di;
+                propertyGrid1.Refresh();
+            }
         }
 
         private void Label1_Click(object sender, EventArgs e)
