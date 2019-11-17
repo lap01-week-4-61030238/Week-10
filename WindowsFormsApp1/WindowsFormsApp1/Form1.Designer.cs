@@ -31,7 +31,7 @@
             this.btnOpenFile = new System.Windows.Forms.Button();
             this.txtboxFileName = new System.Windows.Forms.TextBox();
             this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
-            this.OpenFileDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.OpenFileDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.propertyGrid2 = new System.Windows.Forms.PropertyGrid();
             this.SuspendLayout();
             // 
@@ -59,9 +59,13 @@
             this.propertyGrid1.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.propertyGrid1.Location = new System.Drawing.Point(561, 111);
             this.propertyGrid1.Name = "propertyGrid1";
-            this.propertyGrid1.SelectedObject = this.OpenFileDialog;
+            this.propertyGrid1.SelectedObject = this.OpenFileDialog1;
             this.propertyGrid1.Size = new System.Drawing.Size(195, 263);
             this.propertyGrid1.TabIndex = 2;
+            // 
+            // OpenFileDialog1
+            // 
+            this.OpenFileDialog1.HelpRequest += new System.EventHandler(this.OpenFileDialog1_HelpRequest);
             // 
             // propertyGrid2
             // 
@@ -93,7 +97,7 @@
         private System.Windows.Forms.TextBox txtboxFileName;
         private System.Windows.Forms.PropertyGrid propertyGrid1;
         private System.Windows.Forms.PropertyGrid propertyGrid2;
-        private System.Windows.Forms.FolderBrowserDialog OpenFileDialog;
+        private System.Windows.Forms.FolderBrowserDialog OpenFileDialog1;
     }
 }
 
