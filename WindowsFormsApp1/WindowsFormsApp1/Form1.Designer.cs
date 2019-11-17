@@ -31,13 +31,13 @@
             this.btnOpenFile = new System.Windows.Forms.Button();
             this.txtboxFileName = new System.Windows.Forms.TextBox();
             this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
-            this.propertyGrid2 = new System.Windows.Forms.PropertyGrid();
             this.OpenFileDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.propertyGrid2 = new System.Windows.Forms.PropertyGrid();
             this.SuspendLayout();
             // 
             // btnOpenFile
             // 
-            this.btnOpenFile.Location = new System.Drawing.Point(77, 26);
+            this.btnOpenFile.Location = new System.Drawing.Point(65, 25);
             this.btnOpenFile.Name = "btnOpenFile";
             this.btnOpenFile.Size = new System.Drawing.Size(142, 23);
             this.btnOpenFile.TabIndex = 0;
@@ -57,7 +57,7 @@
             // propertyGrid1
             // 
             this.propertyGrid1.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.propertyGrid1.Location = new System.Drawing.Point(564, 123);
+            this.propertyGrid1.Location = new System.Drawing.Point(561, 111);
             this.propertyGrid1.Name = "propertyGrid1";
             this.propertyGrid1.SelectedObject = this.OpenFileDialog;
             this.propertyGrid1.Size = new System.Drawing.Size(195, 263);
@@ -65,7 +65,7 @@
             // 
             // propertyGrid2
             // 
-            this.propertyGrid2.Location = new System.Drawing.Point(77, 111);
+            this.propertyGrid2.Location = new System.Drawing.Point(65, 111);
             this.propertyGrid2.Name = "propertyGrid2";
             this.propertyGrid2.Size = new System.Drawing.Size(370, 301);
             this.propertyGrid2.TabIndex = 3;
