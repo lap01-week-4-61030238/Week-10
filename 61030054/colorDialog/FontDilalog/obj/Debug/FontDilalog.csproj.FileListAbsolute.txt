@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FontDilalog\FontDilalog\bin\Debug\FontDilalog.exe.config
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FontDilalog\FontDilalog\bin\Debug\FontDilalog.exe
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FontDilalog\FontDilalog\bin\Debug\FontDilalog.pdb
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FontDilalog\FontDilalog\obj\Debug\FontDilalog.csprojAssemblyReference.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FontDilalog\FontDilalog\obj\Debug\FontDilalog.Form1.resources
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FontDilalog\FontDilalog\obj\Debug\FontDilalog.Properties.Resources.resources
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FontDilalog\FontDilalog\obj\Debug\FontDilalog.csproj.GenerateResource.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FontDilalog\FontDilalog\obj\Debug\FontDilalog.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FontDilalog\FontDilalog\obj\Debug\FontDilalog.exe
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FontDilalog\FontDilalog\obj\Debug\FontDilalog.pdb

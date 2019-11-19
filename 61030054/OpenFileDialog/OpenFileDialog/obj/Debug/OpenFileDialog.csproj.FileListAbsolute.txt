@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\OpenFileDialog\OpenFileDialog\bin\Debug\OpenFileDialog.exe.config
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\OpenFileDialog\OpenFileDialog\bin\Debug\OpenFileDialog.exe
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\OpenFileDialog\OpenFileDialog\bin\Debug\OpenFileDialog.pdb
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\OpenFileDialog\OpenFileDialog\obj\Debug\OpenFileDialog.csprojAssemblyReference.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\OpenFileDialog\OpenFileDialog\obj\Debug\OpenFileDialog.Form1.resources
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\OpenFileDialog\OpenFileDialog\obj\Debug\OpenFileDialog.Properties.Resources.resources
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\OpenFileDialog\OpenFileDialog\obj\Debug\OpenFileDialog.csproj.GenerateResource.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\OpenFileDialog\OpenFileDialog\obj\Debug\OpenFileDialog.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\OpenFileDialog\OpenFileDialog\obj\Debug\OpenFileDialog.exe
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\OpenFileDialog\OpenFileDialog\obj\Debug\OpenFileDialog.pdb

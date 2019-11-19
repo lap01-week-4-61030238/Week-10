@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.csprojAssemblyReference.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.Properties.Resources.resources
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.csproj.GenerateResource.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\bin\Debug\Lab10_WindowsFormProperties.exe.config
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\bin\Debug\Lab10_WindowsFormProperties.exe
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\bin\Debug\Lab10_WindowsFormProperties.pdb
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.Form1.resources
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.exe
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.pdb
