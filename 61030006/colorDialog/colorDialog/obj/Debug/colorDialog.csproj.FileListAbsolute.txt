@@ -1,0 +1,9 @@
+C:\Users\asus\Week-10\61030006\colorDialog\colorDialog\bin\Debug\colorDialog.exe.config
+C:\Users\asus\Week-10\61030006\colorDialog\colorDialog\bin\Debug\colorDialog.exe
+C:\Users\asus\Week-10\61030006\colorDialog\colorDialog\bin\Debug\colorDialog.pdb
+C:\Users\asus\Week-10\61030006\colorDialog\colorDialog\obj\Debug\colorDialog.Form1.resources
+C:\Users\asus\Week-10\61030006\colorDialog\colorDialog\obj\Debug\colorDialog.Properties.Resources.resources
+C:\Users\asus\Week-10\61030006\colorDialog\colorDialog\obj\Debug\colorDialog.csproj.GenerateResource.cache
+C:\Users\asus\Week-10\61030006\colorDialog\colorDialog\obj\Debug\colorDialog.csproj.CoreCompileInputs.cache
+C:\Users\asus\Week-10\61030006\colorDialog\colorDialog\obj\Debug\colorDialog.exe
+C:\Users\asus\Week-10\61030006\colorDialog\colorDialog\obj\Debug\colorDialog.pdb
