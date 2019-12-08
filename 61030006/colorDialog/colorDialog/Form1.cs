@@ -17,13 +17,17 @@ namespace colorDialog
             InitializeComponent();
         }
 
-        private void BtnColorDialog_Click(object sender, EventArgs e)
-        {
-            if(colorDialog1.ShowDialog() == DialogResult.OK)
+      
+
+        private void BtnFontDialog_Click(object sender, EventArgs e)
+        {   
+            if(fontDialog1.ShowDialog() == DialogResult.OK)
             {
-                pictureBox1.BackColor = colorDialog1.Color;
+                richTextBox1.Text = textBox1.Text;
                 propertyGrid1.Refresh();
             }
+
         }
+
     }
 }
