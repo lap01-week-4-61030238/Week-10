@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\saveFileDialog\saveFileDialog\bin\Debug\saveFileDialog.exe.config
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\saveFileDialog\saveFileDialog\bin\Debug\saveFileDialog.exe
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\saveFileDialog\saveFileDialog\bin\Debug\saveFileDialog.pdb
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\saveFileDialog\saveFileDialog\obj\Debug\saveFileDialog.csprojAssemblyReference.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\saveFileDialog\saveFileDialog\obj\Debug\saveFileDialog.Form1.resources
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\saveFileDialog\saveFileDialog\obj\Debug\saveFileDialog.Properties.Resources.resources
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\saveFileDialog\saveFileDialog\obj\Debug\saveFileDialog.csproj.GenerateResource.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\saveFileDialog\saveFileDialog\obj\Debug\saveFileDialog.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\saveFileDialog\saveFileDialog\obj\Debug\saveFileDialog.exe
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\saveFileDialog\saveFileDialog\obj\Debug\saveFileDialog.pdb
