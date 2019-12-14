@@ -1,0 +1,10 @@
+C:\Users\asus\Week-10\61030006\folderBrowser\folderBrowser\obj\Debug\folderBrowser.csprojAssemblyReference.cache
+C:\Users\asus\Week-10\61030006\folderBrowser\folderBrowser\obj\Debug\folderBrowser.Form1.resources
+C:\Users\asus\Week-10\61030006\folderBrowser\folderBrowser\obj\Debug\folderBrowser.Properties.Resources.resources
+C:\Users\asus\Week-10\61030006\folderBrowser\folderBrowser\obj\Debug\folderBrowser.csproj.GenerateResource.cache
+C:\Users\asus\Week-10\61030006\folderBrowser\folderBrowser\obj\Debug\folderBrowser.csproj.CoreCompileInputs.cache
+C:\Users\asus\Week-10\61030006\folderBrowser\folderBrowser\bin\Debug\folderBrowser.exe.config
+C:\Users\asus\Week-10\61030006\folderBrowser\folderBrowser\bin\Debug\folderBrowser.exe
+C:\Users\asus\Week-10\61030006\folderBrowser\folderBrowser\bin\Debug\folderBrowser.pdb
+C:\Users\asus\Week-10\61030006\folderBrowser\folderBrowser\obj\Debug\folderBrowser.exe
+C:\Users\asus\Week-10\61030006\folderBrowser\folderBrowser\obj\Debug\folderBrowser.pdb
