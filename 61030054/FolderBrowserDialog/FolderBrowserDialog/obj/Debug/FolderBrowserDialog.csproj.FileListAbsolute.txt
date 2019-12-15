@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FolderBrowserDialog\FolderBrowserDialog\bin\Debug\FolderBrowserDialog.exe.config
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FolderBrowserDialog\FolderBrowserDialog\bin\Debug\FolderBrowserDialog.exe
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FolderBrowserDialog\FolderBrowserDialog\bin\Debug\FolderBrowserDialog.pdb
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FolderBrowserDialog\FolderBrowserDialog\obj\Debug\FolderBrowserDialog.csprojAssemblyReference.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FolderBrowserDialog\FolderBrowserDialog\obj\Debug\FolderBrowserDialog.Form1.resources
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FolderBrowserDialog\FolderBrowserDialog\obj\Debug\FolderBrowserDialog.Properties.Resources.resources
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FolderBrowserDialog\FolderBrowserDialog\obj\Debug\FolderBrowserDialog.csproj.GenerateResource.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FolderBrowserDialog\FolderBrowserDialog\obj\Debug\FolderBrowserDialog.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FolderBrowserDialog\FolderBrowserDialog\obj\Debug\FolderBrowserDialog.exe
+C:\Users\User\Desktop\computer Laboratorr 1\Week-10\61030054\FolderBrowserDialog\FolderBrowserDialog\obj\Debug\FolderBrowserDialog.pdb

@@ -1,0 +1,10 @@
+C:\Users\asus\Week-10\61030006\SumTwoNumbers\SumTwoNumbers\bin\Debug\SumTwoNumbers.exe.config
+C:\Users\asus\Week-10\61030006\SumTwoNumbers\SumTwoNumbers\bin\Debug\SumTwoNumbers.exe
+C:\Users\asus\Week-10\61030006\SumTwoNumbers\SumTwoNumbers\bin\Debug\SumTwoNumbers.pdb
+C:\Users\asus\Week-10\61030006\SumTwoNumbers\SumTwoNumbers\obj\Debug\SumTwoNumbers.csprojAssemblyReference.cache
+C:\Users\asus\Week-10\61030006\SumTwoNumbers\SumTwoNumbers\obj\Debug\SumTwoNumbers.Properties.Resources.resources
+C:\Users\asus\Week-10\61030006\SumTwoNumbers\SumTwoNumbers\obj\Debug\SumTwoNumbers.SumTwoNumbers.resources
+C:\Users\asus\Week-10\61030006\SumTwoNumbers\SumTwoNumbers\obj\Debug\SumTwoNumbers.csproj.GenerateResource.cache
+C:\Users\asus\Week-10\61030006\SumTwoNumbers\SumTwoNumbers\obj\Debug\SumTwoNumbers.csproj.CoreCompileInputs.cache
+C:\Users\asus\Week-10\61030006\SumTwoNumbers\SumTwoNumbers\obj\Debug\SumTwoNumbers.exe
+C:\Users\asus\Week-10\61030006\SumTwoNumbers\SumTwoNumbers\obj\Debug\SumTwoNumbers.pdb
